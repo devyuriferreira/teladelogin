@@ -45,6 +45,8 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.644);
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 
 #imagem {
@@ -58,5 +60,5 @@ section#login {
 #formulario {
     display: block;
     padding: 10px;
-    
+
 }
