@@ -49,13 +49,7 @@ section#login {
     transition-timing-function: ease;
 }
 
-#imagem {
-    display: block;
-    background: var(--cor01-) url(../imagens/loginpic.jpg) no-repeat;
-    background-size: cover;
-    height: 200px;
-    background-position: right center;
-}
+
 
 section#login > div#formulario {
     display: block;
