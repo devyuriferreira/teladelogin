@@ -9,10 +9,6 @@
     Lilás #5f2c82;
 
 */
-
-
-@media screen and (max-width: 600px) {   
-
 :root {
     --cor01-: #5f2c82;
     --cor02-: #49a09d;
@@ -53,6 +49,13 @@ section#login {
     transition-timing-function: ease;
 }
 
+#imagem {
+    display: block;
+    background: var(--cor01-) url(../imagens/loginpic.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+    background-position: right center;
+}
 
 section#login > div#formulario {
     display: block;
@@ -115,6 +118,4 @@ form > a.botao:hover {
 
 form > a.botao > span {
     font-size: 1em
-}
-
 }
