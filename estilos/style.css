@@ -9,6 +9,10 @@
     Lilás #5f2c82;
 
 */
+
+
+@media screen and (max-width: 600px) {   
+
 :root {
     --cor01-: #5f2c82;
     --cor02-: #49a09d;
@@ -48,7 +52,6 @@ section#login {
     transition: width .5s, height .5s;
     transition-timing-function: ease;
 }
-
 
 
 section#login > div#formulario {
@@ -112,4 +115,6 @@ form > a.botao:hover {
 
 form > a.botao > span {
     font-size: 1em
+}
+
 }
