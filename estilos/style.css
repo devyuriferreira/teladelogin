@@ -59,15 +59,59 @@ section#login {
 
 section#login > div#formulario {
     display: block;
-    padding: 10px;
+    padding: 7px;
 
 }
 
 div#formulario {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 div#formulario p {
     font-size: 0.8em;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor02-);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form > input[type=submit]:hover {
+    background-color: #068f8a;
+} 
+
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1.1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 4px;
+    background-color: rgb(131, 123, 123);
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 5px;
+}
+
+form > a.botao:hover {
+    background-color: #068f8a;
+}
+
+form > a.botao > span {
+    font-size: 1em
 }
